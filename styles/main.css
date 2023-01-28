@@ -1,0 +1,270 @@
+.polotno {
+  width: 100%;
+  height: 100%;
+}
+.polotno .container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 15px;
+}
+.polotno .container .obgortka {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.polotno .container .obgortka .img {
+  text-align: center;
+}
+.polotno .container .obgortka .img .kotiki {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+}
+.polotno .container .value {
+  display: flex;
+}
+.polotno .container .value .amount {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 26px;
+  width: 400px;
+  height: 60px;
+  background-color: rgb(7, 224, 181);
+  margin: 20px;
+}
+.polotno .container .value .amount:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .value .quantity {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 28px;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(153, 9, 98);
+}
+.polotno .container .value .quantity:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .block_button {
+  text-align: center;
+}
+.polotno .container .block_button .button_minus {
+  font-size: 24px;
+  width: 200px;
+  height: 80px;
+  background-color: rgb(63, 66, 211);
+  margin: 20px;
+}
+.polotno .container .block_button .button_minus:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .block_button .button_plus {
+  margin: 20px;
+  font-size: 24px;
+  width: 200px;
+  height: 80px;
+  background-color: rgb(120, 41, 211);
+}
+.polotno .container .block_button .button_plus:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .message {
+  width: 400px;
+  color: rgb(49, 4, 39);
+  height: 50px;
+  border: 2px solid black;
+  font-size: 26px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+}
+.polotno .container .message:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .pricelist {
+  width: 400px;
+  color: rgb(72, 41, 245);
+  height: 50px;
+  border: 2px solid rgb(163, 79, 6);
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+  position: relative;
+  top: 0;
+  left: 380px;
+}
+.polotno .container .pricelist:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .summa {
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid rgb(6, 2, 62);
+  height: 50px;
+  text-align: center;
+  align-items: center;
+}
+.polotno .container .summa:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .container_value {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.polotno .container .container_value .button_value_UAH {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 15px;
+  background-color: rgb(236, 233, 160);
+  border: 2px solid rgb(241, 149, 1);
+}
+.polotno .container .container_value .button_value_UAH:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .container_value .button_value_EUR {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236, 233, 160);
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 15px;
+  border: 2px solid rgb(241, 149, 1);
+}
+.polotno .container .container_value .button_value_EUR:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .container_value .button_value_USD {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236, 233, 160);
+  border: 2px solid rgb(241, 149, 1);
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 15px;
+}
+.polotno .container .container_value .button_value_USD:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+.polotno .container .container_value .button_value_CHZ {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236, 233, 160);
+  border: 2px solid rgb(241, 149, 1);
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 15px;
+}
+.polotno .container .container_value .button_value_CHZ:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+
+.block_modal:not(.berc) {
+  display: none;
+}
+
+.block_modal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  background-image: url("/img/Eb2liOJXsAUJNsW.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.close_block {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  padding: 15px;
+}
+
+.close {
+  width: 50px;
+  height: 50px;
+}
+.close:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+
+.button_modal {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+  background-color: rgb(243, 180, 7);
+}
+.button_modal:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 42, 9);
+  color: rgb(0, 212, 142);
+}
+
+.moda {
+  display: block;
+  font-size: 25px;
+  color: rgb(36, 4, 73);
+  line-height: 25px;
+  margin: 5px;
+}
+.moda:hover {
+  background-color: aqua;
+  transition: 0.5s;
+  color: rgb(214, 63, 4);
+}/*# sourceMappingURL=main.css.map */
